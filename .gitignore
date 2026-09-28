@@ -1,0 +1,14 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker / Database volumes local data
+postgres_data/
+
+# Logs
+*.log
